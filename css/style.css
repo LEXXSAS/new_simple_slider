@@ -71,3 +71,13 @@ p {
         height: 50vh;
     }
 }
+@media screen and (orientation: landscape) {
+.slide:first-child {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+    grid-gap: 1em;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+}
+}
